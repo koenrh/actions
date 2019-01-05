@@ -1,9 +1,13 @@
 # GitHub actions
 
-Some GitHub actions that I use in my projects.
+A collection of GitHub actions that I use in my projects.
 
 ## Actions
 
-### eslint
+### ESLint
 
-JavaScript linter.
+ESLint is a JavaScript linter.
+
+### RuboCop
+
+RuboCop is a Ruby static code analyzer and code formatter.
