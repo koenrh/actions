@@ -1,4 +1,4 @@
-FROM ruby:2.6.1-alpine3.8@sha256:c6007b724091bdfb9d13cff040735d08c4574ea6a41ecb28f100ab46349efe07
+FROM ruby:2.6.2-alpine3.8@sha256:3cf51abdf621e9ec1b092deb5972d21102ea40dec53360ddf363894372db4a09
 
 LABEL repository="https://github.com/koenrh/rubocop-action"
 LABEL maintainer="Koen Rouwhorst <info@koenrouwhorst.nl>"
