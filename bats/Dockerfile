@@ -9,8 +9,6 @@ LABEL "com.github.actions.description"="Bash Automated Testing System for Action
 LABEL "com.github.actions.icon"="terminal"
 LABEL "com.github.actions.color"="gray-dark"
 
-COPY LICENSE README.md THIRD_PARTY_NOTICE.md /
-
 RUN apt-get update && \
   apt-get install --no-install-recommends -y \
     bats && \
