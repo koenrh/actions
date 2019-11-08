@@ -1,4 +1,4 @@
-FROM node:13.0.1-alpine@sha256:d8af5dcf412bc70f1da709bbcd812389a377b42e99da298874f26be31a21a5f4
+FROM node:13.1.0-alpine@sha256:6b20f3cb99f7bd87be6b4987e73ebf018fde14d49e15102c44f71c3c47d417ee
 
 LABEL name="ESLint"
 LABEL maintainer="Koen Rouwhorst <info@koenrouwhorst.nl>"
