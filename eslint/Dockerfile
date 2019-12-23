@@ -7,8 +7,8 @@ LABEL "com.github.actions.name"="GitHub Action for ESLint"
 LABEL "com.github.actions.icon"="code"
 LABEL "com.github.actions.color"="blue"
 
-ENV ESLINT_VERSION=5.12.1 \
-    ESLINT_CHECKSUM="642ba59e25de166cf730d6eeb0af9b6f37ab21a04f5726baae6b1588da4afa60" \
+ENV ESLINT_VERSION=6.8.0 \
+    ESLINT_CHECKSUM="10da0d30a69d0ac0b6ea690fdd1e5dd8edf61b5a5f1433d99f976452067947b8" \
     PATH=/usr/lib/node_modules/.bin:$PATH
 
 RUN set -x && \
